@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 header,
 section h2,
 section h3,
@@ -17,8 +21,7 @@ body, input, textarea {
 }
 
 header {
-    padding: 16px 0;
-    background-color: #182C61;
+    background-color: #0b531e;
     color: #ecf0f1;
 }
 
@@ -39,6 +42,12 @@ header nav li a {
     margin: 0 auto;
 }
 
+.container img {
+    max-width: 30em;
+    width: 100%;
+    margin-right: 2.5em;
+}
+
 header .container, section .container {
     display: flex;
     align-items: center;
@@ -46,13 +55,78 @@ header .container, section .container {
 }
 
 .brands-list img {
-    height: 24px;
+    height: 10px;
 }
 
 .brands-list li {
     display: inline;
     margin-right: 8px;
 }
+
+#carousel-images {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#carousel-images img {
+    width: 10%;
+    height: 30em;
+    object-fit: cover;
+    display: block;
+}
+
+
+.container_flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lista_news {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.lista_news li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista_news img{
+    height: 17.5em;
+    width: 18em;
+}
+
+.lista_news li h3 {
+    margin: 16px 0;
+}
+
+.lista_news p {
+    display: flex;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: block;
+    max-width: 100%;
+    padding: 8px 0;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eb7070;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn_tenho_interesse {
+    flex-direction: column;
+    align-items:end;
+}
+
 
 section .container {
     align-items: flex-start;
@@ -67,7 +141,7 @@ section h2 {
 }
 
 section {
-    color:#182C61;
+    color:#0b531e;
 }
 
 section p {
@@ -79,12 +153,13 @@ section p {
 }
 
 .social-links img {
-    height: 24px;
+    height: 2em;
+    width: 1.8em;
 }
 
 .social-links li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 0.5em;
 }
 
 .social-links a {
@@ -119,23 +194,23 @@ section h3 {
 }
 
 form button {
-    background-color:#182C61;
+    background-color:#0b531e;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color:#314e9e;
+    background-color:#2b8944;
 }
 
 input:focus,
 textarea:focus {
-    outline-color: #182C61;
+    outline-color: #ab7f3d;
 }
 
 footer {
-    background-color: #182C61;
+    background-color: #ab7f3d;
     color: #ecf0f1;
     padding: 16px 0;
 }

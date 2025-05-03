@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Games Shop - A sua loja de games </title>
+    <title> ONG Meu Novo Amigo </title>
     <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="icon" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
 <header>
     <div class="container">
-        <h1> Games Shop </h1>
+        <h1> Meu Novo Amigo </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#about"> Sobre a loja </a>
+                    <a href="#about"> Sobre a ONG </a>
                 </li>
                 <li>
                     <a href="#contact"> Contato </a>
@@ -25,26 +26,57 @@
             </ul>
         </nav>
     </div>
+
+    <div id="carousel-images">
+        <img src="./images/7-racas-de-cachorro-com-filhotes-muito-fofos.jpg" alt="pets"/>
+        <img src="./images/grupo-de-gatos-de-rua-fofos-e-gatinhos.jpg" alt="pets"/>
+        <img src="./images/pai-passeando-com-cachorro-no-parque.jpg" alt="pets"/>
+    </div>
+
     </header>
     <section id="about">
         <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="imagem de fachada da loja games shop" />
+            <img class="store-front" src="./images/logo.png" alt="imagem de fachada da ONG" />
             <div>
-            <h2> Sobre a loja </h2>
+            <h2> Sobre a ONG </h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam cum eum voluptatibus aliquid architecto inventore id earum assumenda facilis nihil, quasi pariatur debitis voluptas praesentium voluptate illum incidunt? Alias.
             </p>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consequatur aliquam corporis, aut saepe dicta quod omnis repudiandae ea neque atque asperiores ab est, eveniet error esse, qui iste cumque.
             </p>
-            <ul class="brands-list">
-                <li> <img src="./images/nintendo.png" alt="logo de empresa de jogos nintendo"/> </li>
-                <li> <img src="./images/xbox.png" alt="logo de empresa de jogos xbox"/> </li>
-                <li> <img src="./images/playstation.png" alt="logo de empresa de jogos playstation"/> </li>
-            </ul>
+
             </div>
         </div>
     </section>
+
+    <section id="em-destaque">
+        <div class="container">
+            <h2> Conheça alguns de nossos novos integrantes:</h2>
+            <ul class="container_flex lista_news">
+                <li class="item_central">
+                    <img src="./images/filhotes.jpeg"/>
+                    <h3> Ricardo e Ramona </h3>
+                    <p> Primeira impressão da galera: A única coisa que liga essas gracinhas é o grande apetite!
+                        Enquanto um é totalmente hiperativo, o outro só quer tirar uma soneca. </p>
+                    <button type="button"> Adorei essa gracinha </button>
+                </li>
+                <li class="item_central">
+                    <img src="./images/irmaos.jpeg">
+                    <h3> Trio de irmãos </h3>
+                    <p> Ninhada nova na casa! </p>
+                    <button type="button"> Adorei essa gracinha </button>
+                </li>
+                <li class="item_central">
+                    <img src="./images/lazer.jpeg">
+                    <h3> Domingo </h3>
+                    <p> Primeira impressão da galera: Esperto, comilão e brincalhão.  </p>
+                    <button type="button"> Adorei essa gracinha </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <section id="contact">
         <div class="container">
             <h2> Contato </h2>
@@ -60,7 +92,7 @@
                     </form>
                 </div>
                 <div>
-                    <h3> Nos acompanhe </h3>
+                    <h3> Nos acompanhe! </h3>
                     <ul class="social-links">
                         <li>
                             <a href="#" title="Siga-nos no Instagram">
@@ -72,16 +104,11 @@
                                 <img src="images/facebook.png" alt="Logo da rede social Facebook" />
                             </a>
                         </li>
-                        <li>
-                            <a href="#" title="Visite nosso canal no Youtube">
-                                <img src="images/youtube.png" alt="Logo do Youtube" />
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <div>
                     <h3> Venha até nós </h3>
-                    <p> Rua Javascript, nº 124, Vila HTML - São Paulo </p>
+                    <p> Rua Maurício Cardoso, nº 124, São Cristóvão - Lajeado/RS </p>
                 </div>
             </div>
         </div>
@@ -89,9 +116,16 @@
     <footer>
         <div class="contain">
             <p>
-                &copy; Games Shop - Todos os direitos recervados - 2024
+                &copy; ONG Meu Novo Amigo - Todos os direitos reservados - 2025
             </p>
         </div>
     </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+
 </body>
 </html>
