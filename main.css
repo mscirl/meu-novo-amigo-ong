@@ -12,17 +12,6 @@ header {
     color: #ecf0f1;
 }
 
-header .container, section .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#carousel-images {
-    max-width: 100%;
-    overflow: hidden;
-}
-
 #carousel-images img {
     width: 10%;
     height: 30em;
@@ -37,7 +26,7 @@ header .container, section .container {
 
 .social-links li {
     display: inline;
-    margin-right: 0.5em;
+    margin-right: 1em;
 }
 
 .social-links a {
