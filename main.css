@@ -115,7 +115,7 @@ button {
     margin-top: 5px;
     border: none;
     border-radius: 5px;
-    background-color: #ab7f3d;
+    background-color: #de9b36;
     color: #fff;
     font-size: 0.9em;
     font-weight: bold;
@@ -206,11 +206,11 @@ form button:hover {
 
 input:focus,
 textarea:focus {
-    outline-color: #ab7f3d;
+    outline-color: #de9b36;
 }
 
 footer {
-    background-color: #ab7f3d;
+    background-color: #de9b36;
     color: #ecf0f1;
     padding: 16px 0;
 }
