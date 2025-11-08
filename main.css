@@ -14,7 +14,7 @@ header {
 
 #carousel-images img {
     width: 10%;
-    height: 30em;
+    height: 15em;
     object-fit: cover;
     display: block;
 }
@@ -41,7 +41,7 @@ header {
 
 
 section h3 {
-    margin-bottom: 16px;
+    margin-bottom: 0.8em;
 }
 
 
@@ -54,3 +54,7 @@ textarea:focus {
     outline-color: #de9b36;
 }
 
+.card-img-top {
+    height: 21em;
+    object-fit: cover;
+}
